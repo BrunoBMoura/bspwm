@@ -11,8 +11,10 @@ bspc config window_gap          10
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
-bspc config focused_border_color  "#D75F00"
-bspc config normal_border_color  "#0D0D0D"
+
+# focused black and other grey
+bspc config focused_border_color  "#0D0D0D"
+bspc config normal_border_color  "#0D0D1D"
 
 bspc rule -a Gimp desktop='^3' state=floating follow=on
 bspc rule -a Brave desktop='^2'
